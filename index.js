@@ -7,7 +7,7 @@ const router = new koaRouter()
 mockList.forEach(item => {
   const {url, method, response} = item
   router[method](url, async ctx => {
-    const res = response()
+    const res = response(ctx)
     ctx.body = res
   })
 })
