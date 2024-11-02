@@ -19,6 +19,8 @@ module.exports = [
               fe_id: Random.id(),
               type: 'questionTitle',
               title: '标题',
+              isHidden: false,
+              isLocked: false,
               props: {
                 text: '个人信息调研',
                 level: 1,
@@ -30,6 +32,8 @@ module.exports = [
               fe_id: Random.id(),
               type: 'questionInput',
               title: '你的姓名',
+              isHidden: false,
+              isLocked: false,
               props: {
                 title: '输入框1',
                 placeholder: '请输入姓名'
@@ -39,6 +43,8 @@ module.exports = [
               fe_id: Random.id(),
               type: 'questionInput',
               title: '你的电话',
+              isHidden: false,
+              isLocked: false,
               props: {
                 title: '输入框2',
                 placeholder: '请输入电话'
