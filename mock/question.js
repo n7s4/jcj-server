@@ -39,6 +39,18 @@ module.exports = [
                 placeholder: '请输入姓名'
               }
             },
+            // textarea
+            {
+              fe_id: Random.id(),
+              type: 'questionTextarea',
+              title: '多行输入',
+              isHidden: false,
+              isLocked: false,
+              props: {
+                title: '你的爱好',
+                placeholder: '比如听歌...'
+              }
+            },
             {
               fe_id: Random.id(),
               type: 'questionInput',
