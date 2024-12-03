@@ -49,6 +49,30 @@ module.exports = [
                 title: '输入框2',
                 placeholder: '请输入电话'
               }
+            },
+            // 段落
+            {
+              fe_id: Random.id(),
+              type: 'questionParagraph',
+              title: '段落',
+              isHidden: false,
+              isLocked: false,
+              props: {
+                text: '一行段落',
+                isCenter: false
+              }
+            },
+            // 用户信息
+            {
+              fe_id: Random.id(),
+              type: 'questionInfo',
+              title: '用户信息',
+              isHidden: false,
+              isLocked: false,
+              props: {
+                desc: '一个相信用代码可以改变世界的人',
+                title: '问卷标题'
+              }
             }
           ]
         }
